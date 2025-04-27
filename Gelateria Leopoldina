@@ -47,7 +47,8 @@
         .secao1 img{
             height: 570px;
             width: 500px;
-            transform: translate(1300px, -600px)
+            transform: translate(1300px, -950px);
+            z-index: 1000;
         }
 
         footer {
@@ -59,7 +60,8 @@
             width: 2px;
             height: 620px;
             background-color: rgb(92, 36, 56, 1);
-            transform: translate(1200px, -10px);
+            transform: translate(1200px, -350px);
+            z-index: 1000;
         }
 
     </style>
@@ -74,6 +76,30 @@
         <h1>Sobre nós</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
             magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
+            Voluptatum, enim?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
+            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
+            Voluptatum, enim?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
+            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
+            Voluptatum, enim?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
+            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
+            Voluptatum, enim?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
+            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
+            Voluptatum, enim?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
+            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
+            Voluptatum, enim?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
+            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
+            Voluptatum, enim?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
+            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
+            Voluptatum, enim?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
+            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
             Voluptatum, enim?</p>
             <div class="linha"></div>
         <img src="chef.png">
@@ -87,6 +113,16 @@
 </body>
 
 <footer>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <p>© 2025 Gelateria Leopoldina - Todos os direitos reservados</p>
 </footer>
 </html>
