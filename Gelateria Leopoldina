@@ -30,13 +30,36 @@
         }
 
         section {
-            height: 100vh; /* Cada seção ocupa a tela inteira */
+            height: 70vh; /* Cada seção ocupa a tela inteira */
             padding: 20px;
             box-sizing: border-box;
         }
 
         .secao2 a{
             color: rgba(99,12,12,255);
+        }
+
+        .secao1 p {
+            text-align: justify;
+            max-width: 1100px;
+        }
+
+        .secao1 img{
+            height: 570px;
+            width: 500px;
+            transform: translate(1300px, -600px)
+        }
+
+        footer {
+            text-align: center;
+            font-size: smaller;
+        }
+
+        .linha {
+            width: 2px;
+            height: 620px;
+            background-color: rgb(92, 36, 56, 1);
+            transform: translate(1200px, -10px);
         }
 
     </style>
@@ -49,22 +72,21 @@
 <body>
     <section class="secao1">
         <h1>Sobre nós</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
+            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
+            Voluptatum, enim?</p>
+            <div class="linha"></div>
+        <img src="chef.png">
     </section>
 
     <section class="secao2">
-        <h1>Nosso plano de aulas</h1>
-        <p>Bem-vindos ao curso de Sorvetes, ministrado pelo Professor Giovanni
-            Bracale como parte do programa de Pâtisserie & Boulangerie. Durante 12
-            horas/aula distribuídas em 3 encontros, exploraremos o fascinante mundo
-            da gelateria, desde técnicas básicas até aplicações avançadas.
-            Nosso programa abrange desde a introdução à gelateria, passando pelas
-            etapas de produção (pasteurização, maturação, exposição), confeitaria
-            gelada, sorvetes/gelatos salgados e alcoólicos, até monoporções,
-            semifredos e picolés gourmets. O objetivo é fornecer noções básicas de
-            gelateria e ferramentas para montagem de sobremesas geladas, exóticas
-            e salgadas.</p>
-
-            <p><b>Para mais informações clique <a href="Plano de aulas.pdf" target="_blank">AQUI</a></b>.</p>
+        <h1>Nosso curso</h1>
+        <p></p>
+        <p><b>Para mais informações clique <a href="" target="_blank">AQUI</a></b>.</p>
     </section>
 </body>
+
+<footer>
+    <p>© 2025 Gelateria Leopoldina - Todos os direitos reservados</p>
+</footer>
 </html>
