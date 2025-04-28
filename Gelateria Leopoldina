@@ -30,7 +30,7 @@
         }
 
         section {
-            height: 70vh; /* Cada seção ocupa a tela inteira */
+            height: 100vh; /* Cada seção ocupa a tela inteira */
             padding: 20px;
             box-sizing: border-box;
         }
@@ -41,27 +41,25 @@
 
         .secao1 p {
             text-align: justify;
-            max-width: 1100px;
+            max-width: 800px;
+            
         }
 
         .secao1 img{
-            height: 570px;
-            width: 500px;
-            transform: translate(1300px, -950px);
-            z-index: 1000;
+            height: 470px;
+            width: 400px;
+            transform: translate(870px, -250px);
+            position: relative;
+            z-index: 500;
+        }
+
+        .secao1 {
+            justify-items: space-between;
         }
 
         footer {
             text-align: center;
             font-size: smaller;
-        }
-
-        .linha {
-            width: 2px;
-            height: 620px;
-            background-color: rgb(92, 36, 56, 1);
-            transform: translate(1200px, -350px);
-            z-index: 1000;
         }
 
     </style>
@@ -73,42 +71,30 @@
 </header>
 <body>
     <section class="secao1">
-        <h1>Sobre nós</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
-            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
-            Voluptatum, enim?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
-            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
-            Voluptatum, enim?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
-            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
-            Voluptatum, enim?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
-            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
-            Voluptatum, enim?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
-            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
-            Voluptatum, enim?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
-            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
-            Voluptatum, enim?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
-            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
-            Voluptatum, enim?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
-            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
-            Voluptatum, enim?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim iusto dolorum harum 
-            magnam unde natus eveniet, iure omnis libero temporibus ullam repellat, reprehenderit, quae ipsam odio sequi? 
-            Voluptatum, enim?</p>
-            <div class="linha"></div>
+        <h1>Quem sou eu</h1>
+        <p>Sou Giovanni Bracale, fundador da segunda maior gelateria do Brasil.</p>
+
+        <p>Minha paixão pelo gelato me levou a conquistar certificações com os renomados Chef Erick Jacquin e Chef Laurent Suaudeau.</p>
+            
+            
+        <p>Com anos de experiência e sucesso no mercado, agora quero compartilhar meu conhecimento e ajudar você a abrir sua própria gelateria.</p>
+            
+            
+        <p>Criei um curso completo que ensina desde a produção artesanal até a gestão do negócio — tudo de forma prática e acessível.</p>
+            
+            
+        <p>Se você sonha em empreender no mundo do gelato, estou aqui para te mostrar o caminho.</p>
         <img src="chef.png">
     </section>
 
     <section class="secao2">
-        <h1>Nosso curso</h1>
-        <p></p>
-        <p><b>Para mais informações clique <a href="https://venda7dias-pagina.my.canva.site/descubra-o-sabor-do-sucesso-abra-sua-pr-pria-gelateria" target="_blank">AQUI</a></b>.</p>
+        <h1>Sobre o curso</h1>
+        <p>O curso, criado e gerenciado por mim, Giovanni Bracale, tem como objetivo ensinar pessoas 
+            que querem seguir diferentes ramos de gelatos, desde gelatos comuns
+            até os gelatos menos comuns, como os gelatos zero açúcar, sempre de maneira saudável.</p>
+        
+        <p>Para assistir às vídeo-aulas, selecione o seu ramo preferido e siga as instruções mostradas em seguida.</p>
+        <p><b>Quer acessar meu E-book? Clique <a href="E-BOOK.pdf" target="_blank">AQUI</a></b>.</p>
     </section>
 </body>
 
